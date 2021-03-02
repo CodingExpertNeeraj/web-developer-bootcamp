@@ -4,25 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>html practice</title>
+    
 </head>
 <body>
+   <h1 class="specialH2"> Hay! its all about Neeraj Tiwari.</h1>
     <a href="images/ram.webp"></a>
-    <img src="images/edison.jpg" alt="edison"> 
-    <img src="images/My photo1.jpg">
-    <img src="109848587_784105638792596_3366710682403935725_n.jpg">
+    <img class="specialimg" src="images/edison.jpg" alt="edison"> 
+    <img class="specialimg2" src="images/78136120_621220705081091_501769510089392128_n.jpg">
+    <img class="specialimg" src="images/109848587_784105638792596_3366710682403935725_n.jpg">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/HoliSelfie.jpg/624px-HoliSelfie.jpg" alt="holi">
-
-    <a href="css/style.css"></a>
-
+    <img src="E:\github\web-developer-bootcamp\images/my photo1.jpg" alt="">
     <h1>this is my html practice</h1>
-    <h2>this is my html practice</h2>
+    <h2 class="specialH2">this is my html practice</h2>
     <h3>this is my html practice</h3>
     <h4>this is my html practice</h4>
     <h5>this is my html practice</h5>
     <h6>this is my html practice</h6>
 
-    <p>this is my own practice</p>
+    <p>Happy holi</p>
     <p>its very intresting. i am enjoying.</p>
     <a href="http://www.bing.com">i just want to open bing.</a><br>
     _________________________________________________________________________________________________
@@ -67,41 +68,43 @@
          <h1>Starting table </h1>
          __________________________________________
          <h2>About tiwari family</h2>
-         <head>
-             <tr>
-                 
-                 <th>Name</th>
-                 <th>Age</th>
-                 <th>working</th>
-                 <th cospan="2">intrested & likings</th>
-                </tr>
-                <th>intrested</th>
-                <th>likings</th>
-         </head>
-         <tbody>
-
+         <table>
+         <thead>
                 <tr>
-                    <td>K.C.TIWARI</td><br>
-                    <td>48</td><br>
-                    <td>Plumbar</td><br>
-                    <td>hard working</td>
+                    <th rowspan="2">Name</th>
+                    <th>age</th>
+                    <th colspan="2">work</th>
+                </tr>
+         </thead>
+         <tbody>
+                 <tr>
+                    <td>Neeraj</td>
+                    <td>20</td>
+                    <td>student</td>
                  </tr>
-
-                
-
-
-
-
-         </tbody>
+                 <tr>
+                    <td>saurav</td>
+                    <td>23</td>
+                    <td>student</td>
+                 </tr>
+                 <tr>
+                    <td>kanchan</td>
+                    <td>26</td>
+                    <td>student</td>
+                 </tr>
+             </tbody>
              
+            
+            </table>
 <h1>Now i am starting form </h1>
 ____________________________________
 
 <form action="http://www.google.com">
  
-<label for="first name">first name: <input type="text" id="first name" placeholder="first name"</label> <br>
-<label for="last name">last name: <input type="text" id="last name" placeholder="last name"</label>
-
+<label for="first name">first name: <input type="text" id="first name" placeholder="first name"></label> <br>
+<label for="last name">last name: <input type="text" id="last name" placeholder="last name"></label><br>
+<label for="submit"></label> 
+<input type="submit" id="submit" placeholder="submit">
 
 
 </form>

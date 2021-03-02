@@ -1,3 +1,73 @@
-{ h1 colgroup="red"
+.specialH2{
+     color: royalblue;
+     border: 3px red solid;
+     background-color: yellow;
+     text-shadow: 2px 2px red;
+}
+h2{
+     color: rgba(243, 30, 7, 0.993);
+}
+
+h1{
+     color: purple;
+     background-color: red;
+     border-top:  solid gold;
+     border-left: green;
+     box-shadow: 2px 2px saddlebrown;
+     text-shadow: 2px 2px black;
+}
+
+p{
+     color: rgb(10, 9, 9);
+     border: turquoise solid;
+     background-color: violet;
+}
+
+.specialimg{
+     height: 200px;
+     border: 3px black solid;
+     border-radius: 10px;
+}
+
+ol,ul{
+     color: springgreen;
+}
+
+sup,sub{
+     color: green;
+}
+
+body{
+     
+     background-color: rgb(47, 21, 119);
+}
+
+button{
+     color: rgb(50, 122, 255);
+}
+
+
+.specialimg2{
+     border-color: red;
+     border-style: double;
 
 }
+
+h4{
+     color: gold;
+}
+
+span{
+     color: gold;
+}
+
+th{
+     color: brown;
+     border: black;
+}
+
+tr{
+     border-radius: 0cm;
+     border-color: black;
+}
+
