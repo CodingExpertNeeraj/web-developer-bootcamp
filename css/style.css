@@ -71,3 +71,14 @@ tr{
      border-color: black;
 }
 
+tfoot{
+     color: black;
+     background-color: yellow;
+     text-align: center;
+}
+
+label{
+     color: white;
+     background-color: black;
+}
+
