@@ -1,34 +1,35 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>forms</title>
+    <title>Labels</title>
 </head>
 <body>
-    <form action="http://bing.com">
-        
-    "male" value="boy"></label>
-            First Name: <input type="text" FName placeholder="First Name"><BR></BR>
-             Last Name: <input type="text" placeholder="Last Name"><BR></BR>
-             Email: <input type="text" placeholder="Email"><BR></BR>
-             Password: <input type="password" placeholder="password"><br><br>
-             Date of birth: <input type="Date"><br><br>
-             Mobile: <input type="number"><br><br>
-             <label for="Male" id="Male">male <input type="radio" name="male" value="boy"></label>
-             <label for="Male" id="feMale">male <input type="radio" name="female" value="girl"></label>
-             <label for="Male" id="other">male <input type="radio" name="other" value="other"></label>
-      Language: Hindi <input type="checkbox"> English <input type="checkbox"> punjabi <input type="checkbox"><br><br>
-             <input type="SUBMIT">
-             <input type="reset" name="reset">
- 
-     
- 
- 
-     </form>
- </body>
- </html>
+    <h1>My Search Engines</h1>
+    <h2>Reddit Search here:</h2>
+    <form action="https://www.reddit.com/search/?">
+        <label for="query">Enter your Reddit query here: </label>
+        <input type="text" id="query" name="q" placeholder="Type search here!!">
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+
+    <h2>Google Search here:</h2>
+    <form action="https://www.google.com/search">
+        <label for="query">Enter your Google query here: </label>
+        <input type="text" id="query" name="q" placeholder="Type search here!!">
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+
+    <h2>Youtube Search here:</h2>
+    <form action="https://www.youtube.com/search">
+        <label for="query">Enter your Youtube search here: </label>
+        <input type="text" id="query" name="search_query" placeholder="Type search here!!">
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+
 </body>
 </html>
