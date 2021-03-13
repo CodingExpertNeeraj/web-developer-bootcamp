@@ -23,11 +23,10 @@ p{
      background-color: violet;
 }
 
-.specialimg:hover{
+.specialimg{
      height: 200px;
      border: 3px black solid;
      border-radius: 10px;
-     
 }
 
 ol,ul{
@@ -43,7 +42,7 @@ body{
      background-color: rgb(47, 21, 119);
 }
 
-button:hover{
+button{
      background-color: #fa5;
 }
 
@@ -91,21 +90,5 @@ input{
      color: rgb(250, 249, 249);
      color: yellow;
 }
-
-.stylep{
-     color: crimson;
-     background-color: cyan;
-     text-align: center;
-     font-family:  'Dancing Script', cursive;
-     font-size: x-large;
-}
-
-#specialspan{
-     font-size: 50px;
-     color: black;
-     background-color: chartreuse;
-}
-
-
 
 
