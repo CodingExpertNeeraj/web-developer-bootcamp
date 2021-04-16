@@ -1,0 +1,43 @@
+h1{
+    color: red;
+    background-color: rosybrown;
+}
+div{
+    background-color: rgb(218, 28, 28);
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+    display: inline-block;
+}
+img{
+    height: 150px;
+    width: 150px;
+    transition: ease-in;
+}
+/* div:hover{
+    background-color: aqua;
+    transform: skew(2);
+    border-radius: 50%; */
+}
+img :hover{
+    border-radius: 25px;
+}
+.position{
+    background-color: green;
+     
+}
+#middle{
+    background-color: indigo;
+    position: relative ;
+    bottom: 80px;
+    margin-top: 10px ;
+}
+h2{
+    color: yellow;
+    background-color: black;
+    display: inline;
+}
+#middle:hover{
+    background-color: black;
+}
+

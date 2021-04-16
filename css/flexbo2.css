@@ -1,0 +1,16 @@
+h1{
+    color: rgb(5, 0, 8);
+    background-color: chocolate;
+}
+section{
+    background-color: #003049;
+    width:90% ;
+    height:500px ;
+    border: 5% solid #003049;
+    margin: 0% auto;
+    display: flow-root;
+}
+div{
+    width: 200px;
+    height: 200px;
+}

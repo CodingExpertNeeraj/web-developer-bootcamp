@@ -1,0 +1,15 @@
+section{
+    width: 80%;
+    height: 800px;
+   
+    background-image: url("https://www.hollandridgefarms.com/wp-content/uploads/2021/03/IMG_6496-1-1200x799.jpg");
+    background-size: cover;
+    margin: 0 auto;
+}
+ h1{
+    
+    /* opacity: 0.243; */
+    font-size: 100px;
+    background-color: purple;
+    color: antiquewhite;
+ }

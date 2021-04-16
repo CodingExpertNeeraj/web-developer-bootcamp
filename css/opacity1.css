@@ -1,0 +1,122 @@
+#special
+{
+    font-size: 2em;
+    /* color: LIGHTGREEN; */
+    /* color: #12FF56; */
+    /* color: rgb(10, 209, 40); */
+    color: rgba(10, 209, 40, 0.400);
+
+    /* color: red; */
+    
+
+    /* ALPHA VALUE SHOULD BE BETWEEN 0 TO 1 AND UPTO 3 DECIMALS
+    EXMAPLE: 0.004 */
+}
+
+p{
+    background-color: pink;
+    opacity: 0.3;
+}
+
+/* img{
+    width: 200px;
+    height: 200px;
+    opacity: 0.2;
+    margin: 10px;
+}
+
+img:hover{
+    opacity: 1;
+    transition-duration: 3s;
+} */
+
+p:hover{
+    opacity: 1;
+    transition-duration: 10s;
+}
+
+/* #sfo
+{
+    position: relative;
+    top: 50px;
+    bottom: 50px;
+    left: 100px;
+} */
+
+.circle
+{
+    width: 200px;
+    height: 200px;
+    background-color: magenta;
+}
+
+.circle:hover
+{
+    background-color: green;
+    border-radius: 50%;
+    border: 5px solid black;
+    transition: background-color 2s, border 5s, border-radius 10s;
+
+    /* FROM 0 SECOND TO 2 SECOND IT WILL DO BACKGROUND color
+    FROM 0 TO 10 SECOND IT WILL DRAW BORDER 
+    FROM 0 TO 30 SECOND IT WILL DRAW BORDER RADIUS */
+    transition-timing-function: linear;
+}
+
+button{
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+}
+
+button:hover
+{
+width: 400px;
+height: 50px;
+transition: 4s;
+transition-timing-function: ease-in;
+}
+
+section img{
+margin: 20px 0;
+width: 100px;
+height: 100px;
+background-color: blue;
+transition: margin-left 3s;
+}
+
+section:hover img{
+    margin-left: 500px;
+}
+
+img:nth-of-type(1){
+    transition-timing-function: ease-in;
+}
+
+img:nth-of-type(2){
+    /* transition-timing-function: ease-out; */
+    transition-timing-function: ease-in;
+}
+
+img:nth-of-type(3){
+    transition-timing-function: ease-in;
+    /* transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); */
+}
+
+img:nth-of-type(4){
+    transition: transform 0.6s cubic-bezier(0.36, 0, 0.66, -0.56);
+    /* transition-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715); */
+}
+
+
+p{
+    text-transform: uppercase;
+}
+
+
+/* .img:hover{
+    transition-timing-function: ease-out 5s;
+} */

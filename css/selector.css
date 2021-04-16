@@ -1,0 +1,92 @@
+h1{
+    color: red;
+    background-color: yellow;q
+    border-radius: 0em;
+}
+h2{
+    color:blanchedalmond;
+    background-color: black;
+    border-top-right-radius: 2cm;
+}
+ol{
+    color: blue;
+    font-size: 50px;
+}
+ol>ul{
+    color: darkred;
+    font-size: 30px;
+}
+ol>p:hover{
+    color: darkviolet;
+}
+ol>p{
+    color: fuchsia;
+}
+ol>ul>p{
+    color: hotpink;
+    background-color: black;
+}
+input[type="text"]{
+    color: brown;
+    color: #0f0fff;
+    color: #ff69A4;
+    background-color: yellow;
+}
+input[type="password"]{
+    color:rgb(139, 0, 127);
+    color: #8b007f;
+    background-color: darkorange;
+    background-color: #FF8C00;
+}
+input-box{
+    color: darkgreen;
+    color: #006400;
+}
+p:nth-of-type(24){
+    color: tomato;
+    /* color:#ff6347 */
+    font-size: 1cm;
+    /* background-color:lawngreen; */
+    background-color:#7cfc00;
+}
+p{
+    /* color: lightseagreen; */
+    color: #02A18A
+    font-family: unset;
+}
+
+input[type="password"]{
+    color:rgb(139, 0, 127);
+    background-color: darkorange;
+}
+
+    .specialp{
+        color: maroon;
+    }
+    .specialp span{
+        color:mediumspringgreen;
+        font-size: x-large;
+    }
+    .specialp span:hover{
+        color: green;
+        font-size: larger;
+    }
+    p{
+        background-color: greenyellow;
+        color: black;
+        font-size: medium;
+    }
+    .tryingp{
+        color: blue;
+    }
+    p::first-letter{
+        color:rgb(255, 0, 200);
+        font-size: 1cm;
+    }
+    p::selection{
+        color:purple;
+    }
+    #select::first-line{
+        color: red;
+    }
+    

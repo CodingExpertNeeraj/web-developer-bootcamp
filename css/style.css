@@ -6,6 +6,7 @@
 }
 h2{
      color: rgba(243, 30, 7, 0.993);
+     text-decoration: overline;
 }
 
 h1{
@@ -16,17 +17,24 @@ h1{
      box-shadow: 2px 2px saddlebrown;
      text-shadow: 2px 2px black;
 }
-
-p{
-     color: rgb(10, 9, 9);
-     border: turquoise solid;
-     background-color: violet;
+h1:hover{
+     color: blue;
 }
 
-.specialimg{
+p{
+     color: rgb(236, 183, 191);
+     border:t solid;
+     background-color: violet;
+}
+p:hover{
+     color:crimson
+}
+
+.specialimg:hover{
      height: 200px;
      border: 3px black solid;
      border-radius: 10px;
+     
 }
 
 ol,ul{
@@ -39,10 +47,10 @@ sup,sub{
 
 body{
      
-     background-color: rgb(47, 21, 119);
+     background-color: rgb(8, 4, 253);
 }
 
-button{
+button:hover{
      background-color: #fa5;
 }
 
@@ -90,5 +98,29 @@ input{
      color: rgb(250, 249, 249);
      color: yellow;
 }
+
+.stylep{
+     color: crimson;
+     background-color: cyan;
+     text-align: center;
+     font-family:  'Dancing Script', cursive;
+     font-size: x-large;
+}
+
+#specialspan{
+     font-size: 50px;
+     color: black;
+     background-color: chartreuse;
+}
+#specialspan:hover{
+     font-size:xx-small;
+}
+input[type="range"]{
+     color:rgb(139, 0, 127);
+     background-color: darkorange;
+}
+
+
+
 
 

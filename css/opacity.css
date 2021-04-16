@@ -1,0 +1,87 @@
+/* body{
+    background-color: pink; */
+}
+    h1{
+    color: aqua;
+    background-color: black;
+}
+p{
+    color: black;
+    background-color: rgb(249, 253, 5);
+    opacity: 0.5;
+}
+span{
+    /* color:rgba(0, 0, 255, 0.733) */
+    color: rgb(234,121,111 );
+    font-size: 2em;
+}
+p:hover{
+    color: black;
+    opacity: 1;
+    background-color: rgb(126, 0, 130);
+    font-size: 18px;
+}
+img{
+    margin: 10px;
+    opacity: 0.299;
+}
+img:hover{
+    /* margin: 15px; */
+    opacity: 1;
+    transition: 5s;
+}
+
+h2{
+    color: chartreuse;
+    background-color: black;
+    border-radius: 50%;
+    text-align: center;
+}
+span:hover{
+    color: black;
+}
+div{
+    display:inline-block;
+    margin: 15px;
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    background-color: magenta;
+}
+.circle:hover{
+    background-color: maroon;
+    transition: 5s;
+    border: solid black;
+    border-radius: 45%;
+    transition: background-color 5s,border-radius 15s, border 3s;
+}
+.div2{
+    width: 150px;
+    height: 160px;
+    background-color: chartreuse;
+    border: solid black;
+}
+.div2:hover{
+    background-color: darkblue;
+    border-radius: 90%;
+    transition: 8s;
+    border: 0px;
+}
+button{
+    width: 400px;
+    height: 50px;
+    color: blanchedalmond;
+    background-color: crimson;
+    font-size: 30px;
+}
+button:hover{
+    width: 200px;
+    height: 50px;
+    transition: ease-in 10s;
+    margin: 20px;
+}
+h1{
+    color: red;
+    background: rgb(249, 253, 5);
+}
