@@ -8,9 +8,11 @@ section{
     height:500px ;
     border: 5% solid #003049;
     margin: 0% auto;
-    display: flow-root;
+    display: flex;
 }
 div{
     width: 200px;
     height: 200px;
+    text-align: center;
+    font-size: 100px;
 }
