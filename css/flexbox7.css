@@ -1,0 +1,24 @@
+section{
+      width: 90%;
+height: 500px;
+background-color: #003049;
+border: 5% solid #003049;
+margin: 0% auto;
+display: flex;
+justify-content: center;
+}
+div{
+width: 100px;
+height: 100px;
+text-align: center;
+font-size: 100px;
+border: solid black 1px;
+}
+h1{
+    color: blue;
+    background-color: crimson;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
