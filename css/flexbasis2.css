@@ -6,10 +6,7 @@ section{
     margin: 0% auto;
     border: 5% solid #003049;
     justify-content: center;
-     
-    display: flex;
-    
-    
+    display: flex;  
 }
 div{
     height: 100px;
@@ -17,12 +14,6 @@ div{
     flex-basis: 200px; 
     font-size: 100px;
 }
-
-
 div:nth-of-type(2){
-    flex-grow: 2;
-}
-h1{
-    color: darkmagenta;
-    background-color: darksalmon;
+    flex-shrink: 2;
 }
