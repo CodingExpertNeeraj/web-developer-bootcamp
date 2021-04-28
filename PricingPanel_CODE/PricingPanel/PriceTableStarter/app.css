@@ -17,7 +17,7 @@ body{
     width: 100%;
     max-width: 960px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     text-transform: uppercase;
     text-align: center;
    
@@ -28,6 +28,7 @@ body{
 }
 .pricing-plan:last-child{
     border-bottom: none;
+    border-right: none;
 }
 .pricing-img{
     margin-bottom: 25px;
@@ -52,7 +53,7 @@ body{
     padding: 15px 0;
 }
 
-.pricing-features-item :last-child{
+.pricing-features-item:last-child{
     border-bottom: 1px solid #e1f1ff;
 }
 .pricing-button{
@@ -63,13 +64,34 @@ body{
     padding: 15px 35px;
     text-decoration: none;
     margin: 25px 0;
+    transition: background-color 200ms ease-in-out;
     /* font-size: 20px; */
 /*     
     justify-content: center; */
+}
+.pricing-button:hover{
+    background-color: #e1f1ff;
 }
 .pricing-price{
     font-size: 32px;
     font-weight: 700;
     color: #016ff9;
     display: block;
+}
+.pricing-button.is-featured{
+    background-color: #269aff;
+    color: white;
+}
+.pricing-button.is-featured:hover{
+    background-color: red;
+
+}
+@media (min-width:900px);{
+    .panel{
+        flex-direction: column;
+    }
+    .pricing-plan{
+        border-bottom: none;
+        border-right: 1px solid #0872d4;
+    }
 }

@@ -1,0 +1,17 @@
+h1{
+    color: red;
+
+}
+
+@media (min-width:500px) and (max-width:1000px){
+    h1{
+        color: magenta;
+    }
+}
+
+@media (max-width:500px){
+    h1{
+        color: blue;
+    }
+}
+
