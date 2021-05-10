@@ -1,6 +1,18 @@
-h1{
+/* h1{
     color:blue;
-    background-color: chocolate;
+    background-color: rgb(198, 210, 30);
     border: solid #000000;
+    text-align:center;
+}
+
+h2{
+    color: chartreuse;
+    background-color: crimson;
+    display: inline-block ;
     text-align: center;
 }
+body{
+    background-color: pink;
+    align-items: center;
+    border: solid black 1px;
+} */
