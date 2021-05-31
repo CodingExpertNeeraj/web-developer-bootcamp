@@ -6,4 +6,5 @@ h1{
 p{
     background-color: chartreuse;
     font-size: 20px;
+    border: solid black 1px;
 }
