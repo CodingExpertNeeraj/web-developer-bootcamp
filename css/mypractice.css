@@ -8,5 +8,12 @@ hr{
 }
 p:first-letter{
      font-size: 50px;
-     color: chartreuse;
+     color: rgb(10, 15, 4);
+}
+p{
+    color:  rgb(10, 15, 4);
+}
+.dream{
+    width: 800px;
+    height: 400px;
 }
