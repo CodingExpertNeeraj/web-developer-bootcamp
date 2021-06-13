@@ -17,3 +17,6 @@ p{
     width: 800px;
     height: 400px;
 }
+img{
+    display: inline-block;
+}
