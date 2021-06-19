@@ -31,12 +31,6 @@ function ourPrimeMinister(){
 console.log('mr.Narendra modi is our prime minister')
 ourPrimeMinister();
 
-function aboutGuruji(){
-	
-}
-// aboutGuruji();
-console.log('my guruji name is mr. rachit rastogi he lives in america')
-
 
 
 function printHeart(){
