@@ -9,3 +9,4 @@ const aboutMe = {
     vill: 'doba',
     habbits: ['singing','coding','visiting']
 };
+console.log(`This is all about Neeraj`)
