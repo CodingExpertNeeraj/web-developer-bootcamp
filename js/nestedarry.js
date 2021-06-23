@@ -4,11 +4,12 @@ const airplaneSeats = [
      ['Xavier', 'Ananya', 'Luis'],
    ['Luke', null, 'Deniz'],
    ['Rin', 'Sakura', 'Francisco']
-   
-     i have to update null to 'Hugo'!
-    now what i will do ?
+]
+console.log(airplaneSeats)
+    //
 
     airplaneSeats[3] = ['Luke','Hugo','Deniz']
+    console.log(airplaneSeats[3])
 
     // for (let i = 30; i > 0; i-=5){
     //     console.log(i-5)

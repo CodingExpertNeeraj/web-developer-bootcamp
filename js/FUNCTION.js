@@ -25,21 +25,24 @@
 // ${myVar}
 
 function ourPrimeMinister(){
-
-	
 }
 console.log('mr.Narendra modi is our prime minister')
 ourPrimeMinister();
 
-
-
-function printHeart(){
-    console.log (`<3`);
+function ourGurujiName(){
 }
-printHeart();
+    console.log('mr. Rachit rastogi')
+    ourGurujiName();
 
 
- printHeart()
- printHeart()
- printHeart()
- printHeart()
+
+//function printHeart(){
+   // console.log (`<3`);
+//}
+//printHeart();
+
+
+ //printHeart()
+ //printHeart()
+ //printHeart()
+ //printHeart()
