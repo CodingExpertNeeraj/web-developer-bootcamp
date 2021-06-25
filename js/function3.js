@@ -1,11 +1,17 @@
  //One way of write function
 
+// function printMyName (name) {
+
+//     console.log(name);
+// }
+// printMyName('Neeraj');
+
+
 function printMyName (name) {
-
-    console.log(name);
+    return name+' Tiwari'
 }
-printMyName('Neeraj');
 
+console.log(printMyName('Neeraj'));
 
  //second way to write function
  
@@ -16,7 +22,14 @@ printMyName('Neeraj');
 
  //Third way to write function
 
- const printMyNameInSMARTWay = (name) =>{
-     console.log(name);
- }
- printMyNameInSMARTWay('Neeraj');
+    const printMyNameInSMARTWay = (name) =>{
+        console.log(name);
+     }
+   printMyNameInSMARTWay('Neeraj');
+
+
+ //new type of write function
+
+ const printMyNameInSMARTESTWay = (name) => name + 'Tiwari';
+
+ console.log(printMyNameInSMARTESTWay('Neeraj'));

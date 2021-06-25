@@ -25,14 +25,30 @@
 // ${myVar}
 
 function ourPrimeMinister(){
+
+    console.log(' modi is our prime minister')
 }
-console.log('mr.Narendra modi is our prime minister')
-ourPrimeMinister();
+
+
 
 function ourGurujiName(){
+    console.log('mr. Rachit rastogi and he lives in ameriaca')
+
 }
-    console.log('mr. Rachit rastogi')
-    ourGurujiName();
+   
+ourGurujiName();
+ourPrimeMinister();
+ourGurujiName();
+ourPrimeMinister();
+ourGurujiName();
+ourPrimeMinister();
+ourGurujiName();
+ourPrimeMinister();
+ourGurujiName();
+
+
+
+    
 
 
 

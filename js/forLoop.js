@@ -6,11 +6,28 @@
     
 // }
 // console.log(`i am at record number ${i}`)
-let min = 0 ,
-max = 25;
-for(let i = min; i < max; i-5){
+//------------------------------------------------------------------------
+//let min = 0 ,
+//max = 25;
+//for(let i = min; i < max; i-5){
 
+//}
+
+//let myAra = [ [ 'neeraj', 'kan'] [ 'jhon', 'doe'] ['sau', 'tiw'] ];
+//for (1)
+
+// for (let i = o; i <= "i'am blue" by Eiffel 65.; i++){
+
+//     console.log ('Da ,ba , dee, da, ba, daa';)
+// }
+
+let i = 0; j = 5;
+
+for (let i = 0; i <= j ; i++){
+    console.log ('Da ,ba , dee, da, ba, daa'); 
+     console.log (`${i}`);
+    console.log('This is neeraj,s loop');
+    console.log('ka smjhe ? kuch aaya smjh mai ?');
+    console.log(`lol`);
 }
-
-let myAra = [ [ 'neeraj', 'kan'] [ 'jhon', 'doe'] ['sau', 'tiw'] ];
-for (1)
+console.log('hii')
