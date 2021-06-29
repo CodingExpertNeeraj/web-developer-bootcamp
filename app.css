@@ -1,4 +1,9 @@
-h1{
-    letter-spacing: 20px;
-    font-weight: 100;
+body{
+    background-color: pink;
+}
+span{
+    color: red;
+}
+a{
+    color: red;
 }
