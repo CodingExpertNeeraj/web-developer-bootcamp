@@ -1,3 +1,9 @@
 body{
     background-color: hotpink;
 }
+button:nth-of-type(4n){
+    background-color: coral;
+}
+button:nth-of-type(3n){
+    background-color: rgb(252, 4, 4);
+}
