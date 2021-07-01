@@ -62,3 +62,18 @@ try{
   } catch(e) {
  	 console.log(e);
   }
+function krishna (msg){
+console.log(msg.toUpperCase().repeat(4));
+};
+
+
+//------------------------
+function webDevloper(input){
+	try{
+	 	return input.toUpperCase();
+	 }catch(e){
+	 console.log(e);
+}
+}
+console.log(webDevloper('Neeraj'))
+console.log(webDevloper(1));
