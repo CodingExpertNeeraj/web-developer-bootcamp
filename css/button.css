@@ -1,5 +1,6 @@
 body{
-    background-color: hotpink;
+    /* background-color: hotpink; */
+    
 }
 button:nth-of-type(4n){
     background-color: coral;
@@ -7,3 +8,17 @@ button:nth-of-type(4n){
 button:nth-of-type(3n){
     background-color: rgb(252, 4, 4);
 }
+h1{
+    margin: 20% auto;
+    display: block;
+}
+p{
+    display: inline-block;
+    font-size: 80px;
+    margin: 20% auto;
+} 
+button{
+background-color: dark-white;
+border-radius: 30,20,30,20;
+}
+p:fi
