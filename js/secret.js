@@ -24,5 +24,20 @@
 //     bestFriend:'Rahul',
 // };
 //----------------------------------------------------
-const multiplyBy5 = (Number) => Number * 8 + 4;
-console.log(multiplyBy5(7));
+// const multiplyBy5 = (Number) => Number * 8 + 4;
+// console.log(multiplyBy5(7));
+
+
+// function  checkMyNumber(number)
+// {
+//     if(number>=75) {return true;}
+//     else return false
+// }
+//-------------------------
+
+
+let myArry = [1,2,3,4,5,6,7];
+function lastElement(myArry){
+    console.log('neeraj has failed')
+}
+myArry.lastElement()
