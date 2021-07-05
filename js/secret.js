@@ -38,6 +38,8 @@
 
 let myArry = [1,2,3,4,5,6,7];
 function lastElement(myArry){
-    console.log('neeraj has failed')
+    
 }
-myArry.lastElement()
+console.log (myArry)
+console.log('Neeraj has failed')
+console.log('Neeraj you should do work hard and practice more  ')
