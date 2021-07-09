@@ -1,4 +1,17 @@
-function  add (x,y){
+function  add(x,y){
     return (x+y)
-    console.log(90,34)
+}
+
+function capitalize(Name){
+    return Name;
+    
+}
+
+console.log(add(2,3))
+
+console.log(capitalize('neeraj'))
+//----------------------------
+function capitalize(Name){
+    return Name.charAt(0).toUpperCase()
+    
 }
