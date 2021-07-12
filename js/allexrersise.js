@@ -17,3 +17,8 @@ const greet =(person) => {
     return ('Hey '+person+'!');
 
 }
+
+
+const cleanNames = function(names){
+    return names.map(function(names){return names.trim()});
+};
