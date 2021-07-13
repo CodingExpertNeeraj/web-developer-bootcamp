@@ -119,7 +119,9 @@ input[type="range"]{
      color:rgb(139, 0, 127);
      background-color: darkorange;
 }
-
+.container p:nth-of-type(2n){
+     background-color: aqua;
+}
 
 
 

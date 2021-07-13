@@ -22,3 +22,7 @@ const greet =(person) => {
 const cleanNames = function(names){
     return names.map(function(names){return names.trim()});
 };
+
+let fName = 'Neeraj'
+let secName = 'tiwari'
+let fullName = fName +' '+ secName;
