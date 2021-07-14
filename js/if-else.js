@@ -1,4 +1,4 @@
-//let age = [18,19,20,21,22,23,24]
+
 
 function canDrive(age)
 {
@@ -11,15 +11,24 @@ else
 }
 }
 //-------------------------------
-
+function canVote(age){
 if(age < 18){
- return('bhaiya ji aap vote nhi kr skte ')
+ return 'bhaiya ji aap vote nhi kr skte '
 }
 else
 {
-        return('bhaiya ji aap vote kr skte hain ')
+        return 'bhaiya ji aap vote kr skte hain '
     }
-
+}
+//-------------------------------------------------
+function addmision(std){
+    if(std < 12){
+        console.log('bhai sahab aap collage mai addmission nhi le skte')
+    }
+    else{
+        console.log('bhai yaar aap to collage wale ho gye ho')
+    }
+};
 
 
 // +
