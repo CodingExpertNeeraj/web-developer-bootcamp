@@ -30,6 +30,10 @@ function addmision(std){
     }
 };
 
+let NeeraJ= 123, neeraj = 123;
+
+console.log(myVar)
+console.log(MyVar)
 
 // +
 // -
