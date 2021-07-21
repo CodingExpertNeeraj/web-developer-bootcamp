@@ -29,3 +29,6 @@ for (let i = 0; i <= 20 ; i++){
     console.log('ka smjhe ? kuch aaya smjh mai ?');
     console.log(`lol`);
 }
+for (let N = 1; N <= 21; N++){
+    document.write("Nick")
+}
