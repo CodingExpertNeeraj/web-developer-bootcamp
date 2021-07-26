@@ -77,3 +77,23 @@ function webDevloper(input){
 }
 console.log(webDevloper('Neeraj'))
 console.log(webDevloper(1));
+
+
+
+always:
+try{
+	 your best and ;
+	 do{
+		 what you need to do;
+	 } while(you still have the time);
+
+	 for(opportunity;Comes; only ones){
+		 so grab the chance;
+	 }
+	 if(you fail)
+	 	throw "all your worries";
+}catch(yourself){
+	everytime you fail;
+	and you know to Whom 
+	you should go to always;
+}
