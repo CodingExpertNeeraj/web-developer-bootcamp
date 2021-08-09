@@ -1,0 +1,26 @@
+h1{
+    color:rgb(82, 248, 4);
+}
+.container{
+    background-image: url(https://images.unsplash.com/photo-1532974297617-c0f05fe48bff?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmVkJTIwY2FyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    margin-top: 10px;
+    background-size: cover;
+    background-clip:border-box;
+
+}
+div{
+    margin-left: 100px;
+    margin-right:100px;
+    
+}
+nav{
+    height: 50px;
+}
+p{
+    color: beige;
+}
+audio{
+    opacity: 0.100;
+    color: brown;
+}
