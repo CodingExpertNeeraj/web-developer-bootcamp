@@ -10,17 +10,18 @@ body{
     margin:auto;
     margin: 20 0 0 450px;
     padding: 80px;
-    background: #23453f;
+    background: red;
     border-radius: 15px;
 }
 h2{
     text-align: center;
-    color: aliceblue;
+    color: rgb(2, 8, 14);
     padding: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 label{
-    color: aqua;
-    font-size: 18px;
+    color: black;
+    font-size: 20px;
 }
 #uname{
     width: 300px;
@@ -42,14 +43,14 @@ label{
     border: none;
     border-radius: 17px;
     padding-left: 7px;
-    color:blue;
+    color:rgb(17, 0, 255);
 }
 span{
-    color: white;
+    color: aqua;
     font-size: 17px;
 }
 a{
     float: right;
-    color: palegreen;
+    color: blue;
     text-decoration: none;
 }
