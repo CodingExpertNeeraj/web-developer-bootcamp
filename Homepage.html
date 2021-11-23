@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/homepage.css">
+    <title>my homepage</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul id="nav_bar">
+               <li class="nav_links" id="gmail"><a href="https://mail.google.com/mail/u/0/#inbox">Gmail</a></li>
+               <li class="nav_links"><a href="#">Images</a></li>
+               <li id="sign_in"><a href="http://www.google.com">sign in</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="google">
+        <a href="http://" id="logo"><img src="https://flamingtext.com/net-fu/proxy_form.cgi?script=funtime-logo&fontname=ZaleskiCaps&fontsize=72&text=NEERAJ&ext=gif&imageoutput=true" alt=""></a>
+    </div>
+    <div class="form">
+     <form action="#" id="frmsearch" method="get">
+         <input type="text" id="textsearch" placeholder="search here">
+     </form>
+    </div>
+
+    <div class="btn">
+        <input type="submit" value="google search" id="google_search">
+        <input type="submit" value="I am feeling lucky" id="lucky">
+       
+        
+    </div>
+
+    <script type="text/javascript">
+    document.getElementById("frmsearch").onsubmit = function(){
+        window.location = "http://www.google.com/search?=" + document.getElementById("textsearch").value;
+        return false;
+    }
+
+    </script>
+          <footer>
+              <ul class="footer">
+                  <li><a href="http://">Advertising</a></li>
+                  <li><a href="http://">Business</a></li>
+                  <li><a href="http://">About</a></li>
+              </ul>
+
+
+
+
+
+
+
+          </footer>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>

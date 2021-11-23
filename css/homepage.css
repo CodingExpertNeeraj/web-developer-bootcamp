@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+header{
+    width: 100%;
+}
+ul{
+    list-style: none;
+}
+#nav_bar{
+    float: right;
+}
+#nav_bar li{
+    display: inline-block;
+    padding: 8px;
+}
+#nav_bar #sign_in{
+    background-color: #4887ef;
+    margin-right: 25px;
+    padding: 7px 15px;
+    border-radius: 3px ;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+li.nav_links a:hover{
+    text-decoration: underline;
+}
+#sign_in:hover{
+    box-shadow: 1px 1px 5px #999;
+}
+#sign_in{
+    color: #fff;
+}
+.google #logo{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    clear: both;
+    padding-top: 112px;
+    padding-bottom: 20px;
+}
+.form{
+    text-align: center;
+}
+#textsearch{
+    width: 450px;
+    line-height: 32px;
+    padding: 20px 10px;
+}
+.form #textsearch{
+    padding: 0 8px;
+}
+#textsearch:hover{
+    border-color: #e4e4e4;
+    padding-top: 0;
+}
+.btn{
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 255px;
+}
+.footer{
+    background-color: #f2f2f2;
+    border-top: solid 2px #e4e4e4;
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 5px;
+    width: 100%;
+}
+footer ul li {
+    display: inline;
+    color: #666666;
+    font-size: 14px;
+    padding: 13px;
+}
+footer ul {
+    float: left;
+    padding: 1px;
+}
+footer ul a:hover{
+    text-decoration: underline;
+}
+.footer_right{
+    float: right;
+}
+body{
+    background-image: url(https://images.unsplash.com/photo-1476820865390-c52aeebb9891?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGJhY2tncm91bmR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
