@@ -1,0 +1,44 @@
+body{
+    font-family: tahoma;
+    font-size: 18px;
+    padding-top: 20px;
+}
+h1{
+    text-align: center;
+}
+div.box{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+div.card{
+    width: 250px;
+    text-align: center;
+    margin-top: 30px;
+    box-shadow: 10px 10px 10px 0 gray;
+    /* border: 1px solid gray; */
+}
+div.card img{
+    width: 100%;
+    opacity: 0.1;
+}
+div.text{
+    padding: 10px;
+    background-color: #fff;
+}
+section{
+    padding-bottom: 15px;
+}
+button{
+    height: 40px;
+    background-color: rgb(184, 228, 228);
+    border-radius: 10px;
+    font-waight:bolder ;
+    font-size: 20px;
+}
+div.card img:hover{
+    opacity: 1;
+    transition: 5s;
+    zoom:2%;
+}

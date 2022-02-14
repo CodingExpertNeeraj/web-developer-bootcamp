@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    height: 498px;
+    width: 1360px;
+    border: 2px solid black;
+    padding:auto;
+    margin: auto;
+}
+header{
+    text-align: center;
+    background-color:rgb(44, 41, 41);
+    margin:0%;
+    padding: 6px;
+    color: white;
+    
+}
+header h1{
+    font-size: 20px;
+}
+#navigate{
+    position: sticky;
+    z-index: 1;
+    top: 0%;
+    }
+    .menu{
+    margin:0%;
+    background-color: rgb(0,0,0,0.5);
+    }
+    .menu li{
+        padding: 10px;
+        display: inline-block;
+    }
+    .menu li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    }
+    .menu li:hover{
+    background-color: rgb(0,0,0,0.7);
+    }
+    
+    .menu li:nth-child(2):hover #dropdown1,.menu li:nth-child(3):hover #dropdown2{
+    display: block;
+    }
+    
+    #dropdown1,#dropdown2{
+        position: absolute;
+        width: auto;
+        max-width: 150px;
+        display: none;
+        top:42.5px;
+        background-color: whitesmoke;
+        padding: 0%;
+    }
+    
+    #dropdown1 li,#dropdown2 li{
+        display: block;
+        }
+    #dropdown1 li a,#dropdown2 li a{
+            color:steelblue;
+            font-size:15px;
+     }
+     /* #dropdown1 li a:hover,#dropdown2 li a:hover{
+         background-color: gainsboro;
+     } */
+    /* img{
+        width: 1348px;
+        padding-right: 20px;
+    } */
+    section .kit{
+        height: 350px;
+        /* border: 2px solid rgb(5, 70, 192); */
+        margin: 1.5px;
+        width: 1335px;
+        position:content;
+        margin-right: 10px;
+        
+    }
+        
+     section .footer{
+        
+        height: 26px;
+        background-color: black;
+        text-align: center;
+        color: white; 
+        /* margin-top: 1px; */
+        
+        
+    }
+    .sec2{
+        width: 1320px;
+        height: 1190px;
+        border: 2px solid black;
+        
+        
+    }
+    .main{
+
+        margin: 2%;
+       }
+       
+       .card{
+            width: 20%;
+            display: inline-block;
+            box-shadow: 2px 2px 20px black;
+            border-radius: 5px; 
+            margin: 2%;
+           }
+       
+       .image img{
+         width: 100%;
+         border-top-right-radius: 5px;
+         border-top-left-radius: 5px;
+         
+       
+        
+        }
+       
+       .title{
+        
+         text-align: center;
+         padding: 10px;
+         
+        }
+       
+       h1{
+         font-size: 20px;
+        }
+       
+       .des{
+         padding: 3px;
+         text-align: center;
+        
+         padding-top: 10px;
+               border-bottom-right-radius: 5px;
+         border-bottom-left-radius: 5px;
+       }
+       button{
+         margin-top: 20px;
+         margin-bottom: 10px;
+         background-color: white;
+         border: 1px solid black;
+         border-radius: 5px;
+         padding:10px;
+       }
+       button:hover{
+         background-color: rgb(42, 66, 100);
+         color: white;
+         transition: .5s;
+         cursor: pointer;
+       }
+       .maindiv{
+           width: 70%;
+           height: 400px;
+       }

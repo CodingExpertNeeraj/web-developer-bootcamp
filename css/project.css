@@ -1,0 +1,60 @@
+body{
+    height: auto;
+}
+header{
+    text-align: center;
+    background-color:rgb(44, 41, 41);
+    margin:0%;
+    padding: 6px;
+    color: white;
+}
+#navigate{
+    position: sticky;
+    z-index: 1;
+    top: 0%;
+    }
+    .menu{
+    margin:0%;
+    background-color: rgb(0,0,0,0.5);
+    }
+    .menu li{
+        padding: 10px;
+        display: inline-block;
+    }
+    .menu li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    }
+    .menu li:hover{
+    background-color: rgb(0,0,0,0.7);
+    }
+    
+    .menu li:nth-child(2):hover #dropdown1,.menu li:nth-child(3):hover #dropdown2{
+    display: block;
+    }
+    
+    #dropdown1,#dropdown2{
+        position: absolute;
+        width: auto;
+        max-width: 150px;
+        display: none;
+        top:42.5px;
+        background-color: whitesmoke;
+        padding: 0%;
+    }
+    
+    #dropdown1 li,#dropdown2 li{
+        display: block;
+        }
+    #dropdown1 li a,#dropdown2 li a{
+            color:steelblue;
+            font-size:15px;
+     }
+     #dropdown1 li a:hover,#dropdown2 li a:hover{
+         background-color: gainsboro;
+     }
+    img{
+        width: 1350px;
+        padding-right: 20px;
+    }

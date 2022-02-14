@@ -1,4 +1,4 @@
-h1{
+/* h1{
     color: red;
     background-color: black;
 }
@@ -11,4 +11,7 @@ p{
 h2{
     color: yellow;
     background-color: black;
+} */
+h1::after{
+    color: aqua;
 }

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Your Slot</title>
+    <link rel="stylesheet" href="css/Lab.css">
+
+</head>
+
+<body>
+    <section class="formfill">
+        <form action="lable">
+            <article class="details">
+                <ol class="slotform">
+
+                    <li>
+                        <h1> Your Contact Details</h1>
+                        <div class="contactdetails">
+                            <h4>Full name</h4>
+                            <input type="text" title="fullname" required spellcheck="true">
+                            <h4>Contact Number </h4>
+                            <input type="number" min="600000000" max="9999999999" required>
+                        </div>
+                        <div class="contactdetails">
+                            <h4>Patiant Id If Exits</h4>
+                            <input type="text" title=" patiantid" required spellcheck="true">
+                            <h4>Email Id</h4>
+                            <input type="email" required>
+                        </div>
+                    </li>
+
+                    <li>
+                        <h1>Address</h1>
+                    </li>
+
+                    <div class="address">
+                        <h4>House Number</h4>
+                        <input type="text" title="housenumber" required spellcheck="true">
+                    </div>
+                    <div class="address">
+                        <h4> Street</h4>
+                        <input type="text" title="street" required spellcheck="true">
+                    </div>
+
+                    <div class="address1">
+                        <h4>Area</h4>
+                        <input type="text" title=" area" required spellcheck="true">
+
+                    </div>
+                    <div>
+                        <label for="district">
+                            <h4>District</h4>
+                        </label>
+                        <select name="distritc" id="district">
+                            <option value>Choose</option>
+                            <option value="Almora">Almora</option>
+                            <option value="Bageshwar">Bageshwar</option>
+                            <option value="Nainital">Nainital</option>
+                            <option value="Dehradun">Dehradun</option>
+                        </select>
+                    </div>
+
+
+                    <li>
+                        <h1>Test Type</h1>
+                        <p>Check atleast one box without fail</p>
+                        <input type="checkbox" id="c1" name="option" value="CBC">
+                        <label for="c1">CBC</label>
+                        <br>
+                        <input type="checkbox" id="c1" name="option" value="Complete Urine">
+                        <label for="c1">Complete Urine</label>
+                        <br>
+                        <input type="checkbox" id="c1" name="option" value="Lipid Profile">
+                        <label for="c1">Lipid Profile</label>
+                        <br>
+                        <input type="checkbox" id="c1" name="option" value="Thyroid Stimulating Hormone(TSH)">
+                        <label for="c1">Thyroid Stimulating Hormone(TSH)</label>
+                        <br>
+                        <input type="checkbox" id="c1" name="option" value="Glucose Test">
+                        <label for="c1">Glucose Test</label>
+                        <br>
+
+
+                    </li>
+                    <li>
+                        <h1>Do you want the hard copy of the report</h1>
+                        <input type="radio" id="c5" name="option" value="Yes" required="">
+                        <label for="c5">Yes</label>
+                        <br>
+                        <input type="radio" id="c6" name="option" value="No" required="">
+                        <label for="c6">No</label>
+                    </li>
+                    <li>
+                        <h1>Select date and time</h1>
+                        <input type="date" id="c7" value="date">
+                        <label for="c7">Date</label>
+                        <br>
+                        <input type="time" id="c7" value="time">
+                        <label for="c7">Time</label>
+                    </li>
+                </ol>
+            </article>
+        </form>
+    </section>
+    <section class="image">
+        <img src="Images/lab-test.jpg" alt=" image not found">
+    </section>
+    <section class="submit">
+        <form action>
+            <button>Reset</button>
+            <button>Submit</button>
+        </form>
+    </section>
+</body>
+
+</html>

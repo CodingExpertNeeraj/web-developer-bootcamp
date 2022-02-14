@@ -1,0 +1,208 @@
+body {
+    background-color: whitesmoke;
+    margin: 0%;
+    height: auto;
+
+    display: block;
+
+}
+
+header {
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(68, 67, 67);
+    font-size: large;
+    text-align: center;
+    padding: 5px;
+}
+
+section {
+    position: relative;
+    display: block;
+}
+
+#adv {
+    margin: 10px;
+    /*white-space: nowrap;*/
+    /* overflow-x: auto;
+    overflow-x: scroll;*/
+}
+
+h4 {
+    font-weight: bold;
+    margin: 0%;
+}
+
+li {
+    display: inline-block;
+}
+
+.list {
+    margin: 0%;
+    background-color: rgb(148, 147, 147);
+}
+
+#navigation {
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+}
+
+#addtocart {
+    color: rgb(192, 192, 5);
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: rgb(171, 212, 226);
+    box-sizing: content-box;
+    width: 92%;
+    padding: 8px;
+    position: relative;
+    border-radius: 10px;
+    border: solid lightslategray;
+    display: inline-block;
+    border-style: groove;
+}
+
+.button #addtocart:hover {
+    background-color: rgb(250, 234, 230);
+    border-color: rgb(0, 255, 76);
+
+}
+
+.paraprice {
+    color: rgb(0, 102, 255);
+    margin: 0%;
+}
+
+.list li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.list li a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.list li:hover {
+    background-color: rgb(87, 86, 86);
+}
+
+.photobanner {
+
+    height: 233px;
+    width: 3550px;
+    margin-bottom: 80px;
+}
+
+.photobanner img {
+
+    position: relative;
+    border: 2px solid steelblue;
+
+    width: 700px;
+    height: 300px;
+    display: inline-block;
+}
+
+.first {
+    border-radius: 10px;
+    border-color: black;
+    animation: bannermove 30s linear infinite;
+}
+
+@keyframes bannermove {
+
+    0% {
+        margin-left: 0px;
+    }
+
+    100% {
+        margin-left: -2125px;
+    }
+
+}
+
+.ourMedicines,
+.healthCare {
+    position: absolute;
+    width: auto;
+    max-width: 120px;
+    display: none;
+    top: 42.5px;
+    background-color: whitesmoke;
+    padding: 0%;
+}
+
+.list li:nth-child(2):hover .ourMedicines {
+    display: block;
+}
+
+.list li:nth-child(3):hover .healthCare {
+    display: block;
+}
+
+article {
+    display: block;
+
+}
+
+#store {
+    position: relative;
+
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+#covidcare {
+    margin: 10px;
+    white-space: nowrap;
+    background-color: whitesmoke;
+
+
+
+}
+
+#diabetescare {
+    margin: 10px;
+    white-space: nowrap;
+    background-color: whitesmoke;
+}
+
+.medicineslist {
+    position: relative;
+    border-radius: 10px;
+    margin: 10px;
+    width: 250px;
+    height: 250px;
+    border: solid white;
+    display: inline-block;
+    border-style: groove;
+
+}
+
+.medicineslist:hover {
+    width: 260px;
+    height: 260px;
+}
+
+.medicineslist img {
+    width: 240px;
+    height: 150px;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
