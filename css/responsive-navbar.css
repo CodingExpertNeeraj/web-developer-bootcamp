@@ -95,7 +95,7 @@
     }
   }
   section{
-    background: url("https://wallpaperaccess.com/full/1204217.jpg") no-repeat;
+    /* background: url("https://wallpaperaccess.com/full/1204217.jpg") no-repeat; */
     background-size: cover;
     height: calc(100vh - 80px);
   }
