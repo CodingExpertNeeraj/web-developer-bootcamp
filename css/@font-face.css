@@ -1,7 +1,7 @@
  @font-face {
-    font-family: helloNeeraj;
+    font-family: bold;
     src: url("/QanelasSoft-BoldItalic.ttf")
   } 
 h1{
-    font-family:helloNeeraj;
+    font-family:bold;
 }
