@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get element by class name</title>
+</head>
+<body>
+    <h1>Today we will see how Getelementbyclaassname works</h1>
+
+    <a href="tel:+919410580551">call me</a>
+
+    <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, quaerat.</p>
+    <p class="para">Error alias ut iste a numquam modi voluptatum qui nulla?</p>
+    <p class="para">Totam, iure. Consequatur, illo? Similique autem accusantium officia enim atque!</p>
+    <p class="para">Possimus unde doloribus recusandae iure ad porro rem quisquam. Rem.</p>
+    <p class="para">Laboriosam numquam quas itaque corporis voluptate error beatae laudantium provident!</p>
+    <script>
+        // document.getElementsByClassName("para")[0,1,2,3].style="color:red";
+
+    // now we have to create a new variable 
+    let element = document.getElementsByClassName("para");
+    for( let i = 0; i  < element.length; i++){
+    element[i].style="color:red";
+    }
+    </script>
+    
+</body>
+</html>

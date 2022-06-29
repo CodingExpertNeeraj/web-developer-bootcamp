@@ -17,18 +17,20 @@
     
     
     -->
+    <span>Hello</span>
 
     <p class="test">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nisi neque repellendus corporis.</p>
     <p class="test">Labore dolorum inventore vel, dolore vitae, consectetur saepe reprehenderit cumque assumenda, distinctio nesciunt?</p>
     <p class="test">Dolorum alias ab debitis architecto? Et sed minus animi, debitis molestiae excepturi odio.</p>
     <p class="test">Facilis quod, temporibus, ab quae esse vitae modi vero dolor repudiandae, cupiditate quas?</p>
 
+    
     <!-- for id -->
     <p id="cool">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto voluptas rem harum provident, quasi earum repellendus atque suscipit fugit? Ratione.</p>
     <p id="cool">Quod libero fuga placeat amet quidem adipisci? Quibusdam corrupti, culpa deserunt possimus sunt, nemo, magni dolorum quas aspernatur atque fugiat.</p>
     <p id="cool">Maiores ex saepe cum iste temporibus, possimus dicta earum accusamus quidem libero laborum, corrupti, nihil ipsa deleniti totam velit sit.</p>
     <p id="cool">Adipisci, animi doloribus temporibus provident sequi omnis tenetur sapiente laboriosam. Quaerat totam repellat quod, aspernatur voluptatem quisquam animi rerum alias!</p>
-
+    <button id="btn">submit</button>
     <script>
         document.querySelector('p').style="color:magenta;font-size:25px;background:yellow";
         // querySelector example
@@ -38,7 +40,7 @@
         // getElementById example
         document.getElementsByClassName("test")[2].style="background:pink;height:100px;padding:25%;text-align:center";
         // get element by class name example
-        document.getElementById("cool").innerText="hello guys how are you?"
+        document.getElementById("cool").innerText="hello guys how are your family?"
         // inner text example
 
         for (var i = 0; i < 25; i++){
@@ -54,6 +56,8 @@
         intro();
         intro();
         intro()
+        document.querySelector("span").innerText ="krishna"
+        btn.style.cssText=background="red";
     </script>
 </body>
 </html>
