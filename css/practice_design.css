@@ -18,7 +18,8 @@ html,body{
 #left{
     width: 40%;
     height: 100%;
-    background-color: palevioletred;
+    background-color: rgb(253, 252, 253);
+    position: relative;
 }
 #lnav{
     width: 100%;
@@ -34,11 +35,43 @@ html,body{
     margin-right: 20px;
     color: #000;
     text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
 }
 #lnavr i{
-    color: rgb(29, 119, 223);
-    font-size: 2vw;
+    /* color: rgb(29, 119, 223); */
+    color: royalblue;
+    /* font-size: 2vw; */
 }
+#left #textcenter{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* font-size: 2vw; */
+}
+#textcenter h1{
+    font-size: 80px;
+    font-weight: 900;
+    /* margin-top: 10px; */
+}
+#textcenter p{
+    opacity: .6;
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#textcenter a{
+    text-decoration: none;
+    font-size: -5vw;
+    color: #000;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    opacity: .6;
+
+}
+
 #right{
     width: 60%;
     height: 100%;
@@ -53,15 +86,42 @@ html,body{
 #rbottom{
     width: 100%;
     height: 50%;
-    background-color: yellow;
+    /* background-color: yellow; */
+    background-image: url("https://images.unsplash.com/photo-1691425938881-2cac802cf078?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDM3fEZ6bzN6dU9ITjZ3fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60");
+    background-position: center;
+    background-size: cover;
 }
 #rtopleft{
     width: 55%;
     height: 100%;
-    background-color: rgb(3, 252, 24);
+    /* background-color: rgb(3, 252, 24); */
+    background-image: url("https://media.istockphoto.com/id/1430957752/photo/3d-human-hands-clapping-and-applause.jpg?s=1024x1024&w=is&k=20&c=waPoBZu4vRbTZNKr-GVAY5qhvVr9ppjGob8T8EsVeJQ=");
+    background-position: center;
+    background-size: cover;
+    border-left: #000 1px solid;
 }
 #rtopright{
     width: 45%;
     height: 100%;
-    background-color: aqua;
+    /* background-color: aqua; */
+    background: url("https://media.istockphoto.com/id/1465081516/photo/fruit-basket.webp?b=1&s=170667a&w=0&k=20&c=LJYFqNU4MVuLGejOBuGEeRM37GPVr2gibWM7n4VWmxE=");
+    /* background-position: 0%; */
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-position: center;
 }
+
+ @media(max-width:500px){
+    #main{
+        flex-direction: column;
+    }
+    #main #left{
+        width: 100%;
+    }
+    #right{
+        width: 100%;
+    }
+    #left #textcenter h1{
+        font-size: 20vw;
+    }
+ }
